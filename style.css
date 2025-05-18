@@ -1,0 +1,71 @@
+body{
+    background:linear-gradient(to bottom, #3A5C76,#5F84A3, #A3BFD9,#F6D6B8,#E3807B,#B05C6E) ;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
+  header{
+  font-size: x-large;
+  background: linear-gradient(to bottom, #f2dad4, rgb(241, 166, 166));
+  color: rgb(0, 0, 0);
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  }
+  .city-weather{
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 20px;
+    display: inline-block;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    margin: 20px;
+    justify-content: center;
+    height: 400px;
+    width: 500px;
+    
+  }
+  .city-weather h1{
+    text-align: center;
+  }
+  input[type="text"]{
+    padding: 10px;
+    border-radius: 2px;
+  }
+  button{
+  margin: 10px;
+  padding: 5px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  }
+  button:hover{
+    background-color: rgb(73, 73, 73);
+  }
+  #result {
+    margin-top: 100px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  #result h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #3A5C76;
+  }
+  
+  #result p {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  #result img {
+    margin-top: 10px;
+    height: 60px;
+  }
